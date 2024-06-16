@@ -18,17 +18,8 @@ MainTab = Window:MakeTab({ -- like a window or tabs you know
 MainTab:AddButton({
 	Name = "Button!",
 	Callback = function()
-      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
   	end    
-})
-
-MainTab:AddButton({ -- MainTab like linking to that Windoes tab if you makre more tab you can do the same
-    Name = "Button!", -- name of the button
-    Callback = function(Value)
-          if Value then 
-            print("button clicked")
-        end
-      end    
 })
 
 MainTab:AddToggle({
