@@ -25,7 +25,7 @@ MainTab:AddSlider({
 	Increment = 1,
 	ValueName = "WS",
 	Callback = function(Value)
-		game.Players.LocalPlayer.Character.Humanoid.Walkspeed = value
+		game.Players.LocalPlayer.Character.Humanoid.Walkspeed = Value
 	end    
 })
 
