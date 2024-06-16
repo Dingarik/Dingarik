@@ -15,6 +15,7 @@ MainTab = Window:MakeTab({ -- like a window or tabs you know
 })
 
 -- that is a code like MainTab is 1 you can make more tab just make sure yo chnage the name like the MainTab 
+Tab:AddLabel("Test yes dinga")
 MainTab:AddButton({
 	Name = "SystemBroken (PC/Mobile)",
 	Callback = function()
