@@ -15,6 +15,12 @@ MainTab = Window:MakeTab({ -- like a window or tabs you know
 })
 
 -- that is a code like MainTab is 1 you can make more tab just make sure yo chnage the name like the MainTab 
+MainTab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
 
 MainTab:AddButton({ -- MainTab like linking to that Windoes tab if you makre more tab you can do the same
     Name = "Button!", -- name of the button
