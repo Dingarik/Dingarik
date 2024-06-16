@@ -14,7 +14,21 @@ MainTab = Window:MakeTab({ -- like a window or tabs you know
     PremiumOnly = false
 })
 
--- that is a code like MainTab is 1 you can make more tab just make sure yo chnage the name like the MainTab 
+-- that is a code like MainTab is 1 you can make more tab just make sure yo chnage the name like the MainTab
+
+MainTab:AddSlider({
+	Name = "Walkspeed",
+	Min = 16,
+	Max = 999,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "bananas",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.Walkspeed = value
+	end    
+})
+
 MainTab:AddLabel("Label")
 MainTab:AddButton({
 	Name = "SystemBroken (PC/Mobile)",
