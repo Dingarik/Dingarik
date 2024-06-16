@@ -1,10 +1,10 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({
-    Name = "Dinga`s Hub", -- name
+    Name = "DingaHub", -- name
     HidePremium = false, -- premium user
     SaveConfig = true, -- save config like to save the toggles and things
-    ConfigFolder = "OrionTest"
+    ConfigFolder = "Dinga Orion"
 })
 
 
@@ -16,18 +16,16 @@ MainTab = Window:MakeTab({ -- like a window or tabs you know
 
 -- that is a code like MainTab is 1 you can make more tab just make sure yo chnage the name like the MainTab 
 MainTab:AddButton({
-	Name = "Button!",
+	Name = "SystemBroken (PC/Mobile)",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
   	end    
 })
 
-MainTab:AddToggle({
-    Name = "This is a toggle!", -- name of the button
-    Default = false,
-    Callback = function(Value)
-        if Value then 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
-        end
-    end    
+MainTab:AddButton({
+	Name = "Inf Yield (PC/Mobile)",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end
+    end
 })
