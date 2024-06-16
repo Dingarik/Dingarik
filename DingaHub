@@ -23,7 +23,7 @@ MainTab:AddSlider({
 	Default = 5,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
-	ValueName = "Walkspeed",
+	ValueName = "WS",
 	Callback = function(Value)
 		game.Players.LocalPlayer.Character.Humanoid.Walkspeed = value
 	end    
