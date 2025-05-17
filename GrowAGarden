@@ -1,5 +1,5 @@
 if game.PlaceId == 126884695634066 then
-loadstring(game:HttpGet("https://pastefy.app/MoP73EYx/raw"))("t.me/DingaScripts")
+loadstring(game:HttpGet("https://pastefy.app/YYDaQm60/raw"))("t.me/DingaScripts")
 else
 warn("EN game not supported")
 warn("RU игра не поддерживатеся")
